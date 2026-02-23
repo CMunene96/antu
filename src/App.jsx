@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
-import Login from './pages/auth/Login';
+import Login from './pages/auth/login';
 import Register from './pages/auth/Register';
-import CustomerDashboard from './pages/customer/Dashboard';
+import CustomerDashboard from './pages/Customer/Dashboard';
 import DriverDashboard from './pages/driver/Dashboard';
 import AdminDashboard from './pages/admin/Dashboard';
 
@@ -54,3 +54,5 @@ function App() {
     </AuthProvider>
   );
 }
+
+export default App;
